@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For water treatment dealers selling in the home: a branded water quality report from your test results and public water system data.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Water Report Desk</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Water Report Desk</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>A clear water quality report for every in-home visit — your test results plus public data for the address</h1>
-    <p class="sub">For water treatment dealers: enter the results of the water test at the customer's home, add public water system data for their address, and show a clear branded report on the tablet, then send it to the customer.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For water treatment dealers</p>
+      <h1 class="rise" style="--i:1" data-len="xlong">A clear water quality report for every in-home visit&nbsp;<span class="soft">— your test results plus public data for the address</span></h1>
+      <p class="rise" style="--i:2">For water treatment dealers: enter the results of the water test at the customer's home, add public water system data for their address, and show a clear branded report on the tablet, then send it to the customer.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" fill="#0a1524" font-weight="600">Water Report</text><line x1="110" y1="214" x2="1090" y2="214" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#12397a" rx="8" /><text x="200" y="294" font-size="32" fill="#0a1524" font-weight="600">Test results</text><rect x="130" y="350" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="384" font-size="32" fill="#0a1524" font-weight="600">Public data</text><rect x="130" y="440" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="474" font-size="32" fill="#0a1524" font-weight="600">Branded report</text><rect x="130" y="530" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="564" font-size="32" fill="#0a1524" font-weight="600">After the visit</text><rect x="700" y="260" width="370" height="400" fill="#dfe8f7" rx="20" /><text x="730" y="330" font-size="34" fill="#0a1524" font-weight="600">On the tablet</text><rect x="740" y="450" width="48" height="160" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="818" y="510" width="48" height="100" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="896" y="400" width="48" height="210" fill="#12397a" rx="8" /><rect x="974" y="530" width="48" height="80" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Water treatment dealers</dd></div>
+      <div><dt>Enter</dt><dd>The results of the water</dd></div>
+      <div><dt>Show</dt><dd>A clear branded report</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Test results</b><span>Hardness, iron, chlorine, TDS, pH and other results entered at the kitchen table.</span><br><a class="btn" href="price.html" data-ev="feature_test">I need this</a></div>
-      <div class="card"><b>Public data for the address</b><span>Data reported by the customer's public water system, by ZIP code.</span><br><a class="btn" href="price.html" data-ev="feature_public">I need this</a></div>
-      <div class="card"><b>Branded report</b><span>One clear report with your logo, explained in plain words, on the tablet.</span><br><a class="btn" href="price.html" data-ev="feature_report">I need this</a></div>
-      <div class="card"><b>Follow-up</b><span>The report is sent to the customer by email or text after the visit.</span><br><a class="btn" href="price.html" data-ev="feature_followup">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Test results</text><rect x="140" y="206" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="152,230 164,240 178,220" fill="none" stroke="#12397a" stroke-width="6" /><rect x="210" y="216" width="200" height="24" fill="#dde2ea" rx="12" /><rect x="140" y="294" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="152,318 164,328 178,308" fill="none" stroke="#12397a" stroke-width="6" /><rect x="210" y="304" width="250" height="24" fill="#b9c3d2" rx="12" /><rect x="140" y="382" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="210" y="392" width="160" height="24" fill="#dde2ea" rx="12" /></svg></div>
+        <h3>Test results</h3><p>Hardness, iron, chlorine, TDS, pH and other results entered at the kitchen table.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_test">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Public data for the address</text><rect x="140" y="200" width="520" height="270" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><circle cx="200" cy="270" r="28" fill="#dfe8f7" /><circle cx="200" cy="270" r="10" fill="#12397a" /><rect x="250" y="250" width="280" height="18" fill="#dde2ea" rx="8" /><rect x="250" y="290" width="220" height="18" fill="#b9c3d2" rx="8" /><rect x="180" y="360" width="360" height="18" fill="#dde2ea" rx="8" /><rect x="180" y="400" width="260" height="18" fill="#dfe8f7" rx="8" /></svg></div>
+        <h3>Public data for the address</h3><p>Data reported by the customer's public water system, by ZIP code.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_public">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Branded report</text><rect x="140" y="200" width="340" height="270" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="236" width="230" height="18" fill="#12397a" rx="8" /><rect x="170" y="288" width="150" height="18" fill="#dde2ea" rx="8" /><rect x="170" y="340" width="200" height="18" fill="#dde2ea" rx="8" /><rect x="170" y="392" width="170" height="18" fill="#dde2ea" rx="8" /><circle cx="560" cy="330" r="52" fill="#dfe8f7" /><polyline points="534,332 552,354 590,300" fill="none" stroke="#12397a" stroke-width="8" /></svg></div>
+        <h3>Branded report</h3><p>One clear report with your logo, explained in plain words, on the tablet.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_report">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Follow-up</text><rect x="120" y="210" width="210" height="250" fill="#ffffff" rx="14" stroke="#dde2ea" stroke-width="3" /><rect x="470" y="210" width="210" height="250" fill="#ffffff" rx="14" stroke="#dde2ea" stroke-width="3" /><polygon points="350,310 430,345 350,380" fill="#12397a" /><rect x="150" y="250" width="140" height="16" fill="#dde2ea" rx="8" /><rect x="150" y="290" width="100" height="16" fill="#b9c3d2" rx="8" /><rect x="500" y="250" width="140" height="16" fill="#dfe8f7" rx="8" /><rect x="500" y="290" width="110" height="16" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Follow-up</h3><p>The report is sent to the customer by email or text after the visit.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_followup">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">Home visit in a suburb on city water. Test results: hardness 14 grains, chlorine 1.8 ppm, TDS 310. Public data for the ZIP code added. The family sees one clear report on the tablet; it is emailed to them after the visit with the dealer's contact.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>Home visit in a suburb on city water. Test results: hardness 14 grains, chlorine 1.8 ppm, TDS 310. Public data for the ZIP code added. The family sees one clear report on the tablet; it is emailed to them after the visit with the dealer's contact.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">Home visit</text><circle cx="600" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">hardness 14 grains</text><circle cx="960" cy="150" r="20" fill="#12397a" /><text x="960" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">city water</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="38" fill="#0a1524" font-weight="600">on the tablet</text><text x="170" y="470" font-size="32" fill="#566174">after the visit</text><rect x="170" y="540" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="266" y="540" width="64" height="64" fill="#12397a" rx="12" /><rect x="362" y="540" width="64" height="64" fill="#dde2ea" rx="12" /><rect x="458" y="540" width="64" height="64" fill="#b9c3d2" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>A water treatment dealer selling in the home tests the water at the kitchen table and explains what the results mean. A clear report helps the family understand their water and decide calmly. Many dealers still write results on paper or use a generic form, and the public data about the customer's water system stays somewhere on a government website.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>A water treatment dealer selling in the home tests the water at the kitchen table and explains what the results mean. A clear report helps the family understand their water and decide calmly. Many dealers still write results on paper or use a generic form, and the public data about the customer's water system stays somewhere on a government website.</p>
     <p>Water Report Desk turns the visit into one clear report. It is built for dealers and their sales reps, priced for small dealerships, and works on any tablet or phone.</p>
     <p>During the visit the rep enters the test results: hardness, iron, chlorine, total dissolved solids, pH and any other tests the dealer runs. The service adds the data reported by the customer's public water system for the address or ZIP code, using public EPA data, and puts both on the same page.</p>
     <p>The report explains each result in plain words: what it is, what the number means and why it matters for the home — scale on fixtures, taste, stains. It carries the dealer's logo and contact, not ours. The rep shows it on the tablet and can walk the family through it one section at a time.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>On a busy day a rep may run several visits. The report takes the same few minutes at each home, looks the same for every rep, and carries the dealer's brand. Families compare it with what they read online and see the same public data, explained clearly. Managers can review reports and coach reps on how they explain results.</p>
     <p>Dealers who sell in several states or service areas can set up their list of tests by area, so reps in hard-water regions start with hardness and iron, and reps in chlorinated city water start with chlorine and taste.</p>
     <p>Reports show test results entered by the rep and public data as reported. They are not a certified laboratory analysis. We are not affiliated with EPA or any water utility.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Where does the public data come from?</h3>
-    <p>From public EPA data on water systems for the customer's address or ZIP code.</p>
-    <h3>Is the report a laboratory analysis?</h3>
-    <p>No. It shows the rep's test results and public data; it is not a certified laboratory report.</p>
-    <h3>Does the report carry my brand?</h3>
-    <p>Yes, your logo and contact details.</p>
-    <h3>How many reports are included?</h3>
-    <p>Plans include a monthly number of reports; see the price page.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether dealers need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Where does the public data come from?</h3><p>From public EPA data on water systems for the customer's address or ZIP code.</p></div>
+      <div class="split flip"><h3>Is the report a laboratory analysis?</h3><p>No. It shows the rep's test results and public data; it is not a certified laboratory report.</p></div>
+      <div class="split flip"><h3>Does the report carry my brand?</h3><p>Yes, your logo and contact details.</p></div>
+      <div class="split flip"><h3>How many reports are included?</h3><p>Plans include a monthly number of reports; see the price page.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether dealers need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Create your first report</h2>
-    <p><label>In-home visits per month<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 20</option><option>21–60</option><option>61–150</option><option>More than 150</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Create a report</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Create your first report</h2>
+    </div>
+    <div class="tile stack">
+      <label>In-home visits per month<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 20</option><option>21–60</option><option>61–150</option><option>More than 150</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Create a report</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Water Report Desk</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Not a certified laboratory analysis. Public data is shown as reported. Not affiliated with EPA or any water utility.</p>
+  <p>Not a certified laboratory analysis. Public data is shown as reported. Not affiliated with EPA or any water utility.</p>
 </div></footer>
 
 </body>
